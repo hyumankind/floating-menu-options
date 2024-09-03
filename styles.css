@@ -1,0 +1,36 @@
+.floating-menu {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu-button {
+    padding: 12px 24px;
+    border-radius: 9999px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    font: inherit;
+}
+
+.open-menu-btn {
+    padding: 8px 16px;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
